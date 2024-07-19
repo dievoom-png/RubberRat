@@ -15,38 +15,6 @@
 #include <windows.h>
 #include <iphlpapi.h>
 
-/* Known bugs
-
-* 1. Make a specific funtion to create the id folder as the savetofile cant work on normal files to send and the id file
-* 2. ~~States table doesnt update~~
-* 3.
-
-*/
-
-/* TODO
-* [] Rename the malware to office setup,
-* [] who creates the patch file? rubber ducky or dropper? if not dropper then we need to cahnge the logic to check for id file instead of patch folder
-*		or place the malware in another directory.
-* [] Put it in the same place so the worm can copy it
-* [] mutex so one instace is running (from id)
-*
-*
-*
-* [?] make a post request for the username after the id
-* [x] Manually steal the files like we are doing
-* [x] make a lot of switch cases to disable and enable feaature no need to be complciated
-* [x] Page having all victims
-* [x] Make paths dynamic
-* [x] screenshot can be called in its switch case in a while loop that sleeps for a minute then saves and sends the file
-* [] Send files every 5 mins (timer) then delete old file for keylogging, clipboard
-* [x] How often to check for command
-* [] File zipped before sending with pwd maybe the id of the malware instance
-* [] Send same data twice?
-* [x] if malware is killed it checks a file to prevent the same victim having the diff files at the server
-* [x] Multi threadding
-* [] change to int main after done
-
-*/
 
 /*
 * change ip
