@@ -6,4 +6,18 @@ RubberRat is an educational malware tool designed to demonstrate the risks and r
 
 ## How does it work?
 
-RubberRat operates differently from other tools like Rubber Ducky, which typically require the user to physically retrieve data from a USB device. Instead, RubberRat utilizes the Digispark Attiny85 microcontroller to install and execute malware via a PowerShell script on the endpoint machine. This approach allows for remote access to the compromised system, illustrating the rapid escalation of risk posed by physical access to unsecured devices.
+RubberRat operates differently from other tools like Rubber Ducky, which typically require the user to physically retrieve data from a USB device. Instead, RubberRat utilizes the Digispark Attiny85 microcontroller to install and execute malware via a PowerShell script on the endpoint machine. This approach allows for remote access to the compromised system using the admin panel located on the C2 server.
+
+![output2](https://github.com/user-attachments/assets/2a191cee-836e-40be-8700-6a5a27c24d55)
+
+(Note: The cmd prompt is just for visuals it can be easily turned off)
+
+## Features
+- Keylogger
+- USB Worm
+- Screenshots, clipboard data, browser cookies of the compromised endpoint
+- Remote Code Execution (CMD)
+- Presistence using registry
+- Command and control server handling muitple clients with unique IDs stored in a database
+- Self destroy functionality
+- Anti-Analysis measures
