@@ -16,13 +16,10 @@
 #include <iphlpapi.h>
 
 
-/*
-* change ip
-* change keylogger.txt file path
-* change
-*/
+
 
 /* Setup:
+
 * sudo systemctl start mariadb.service
 * sudo systemctl start httpd.service
 
